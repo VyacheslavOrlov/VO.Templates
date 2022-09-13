@@ -1,0 +1,25 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Vyacheslav Orlov",
+	"classifications": [
+		"Library"
+	],
+	"identity": "RestApi.Client.LibraryTemplate",
+	"name": "Rest Api Client Library Template",
+	"shortName": "restapi",
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"sourceName": "RestApiClient",
+	"preferNameDirectory": true,
+	"symbols": {
+		"AuthorName": {
+			"type": "parameter",
+			"defaultValue": "(insert author name)",
+			"replaces": "AuthorName",
+			"datatype": "text",
+			"description": "Author name"
+		}
+	}
+}

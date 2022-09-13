@@ -7,7 +7,7 @@ public interface IRestApiClient
     Task<ExampletResult> MethodExampleAsync(string name, CancellationToken cancellationToken = default);
 }
 
-public interface IRestApiClient<T> : IRestApiClient
+public interface IRestApiClient<T> : IRestApiClient 
 {
 }
 
