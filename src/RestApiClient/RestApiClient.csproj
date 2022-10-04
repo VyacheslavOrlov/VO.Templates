@@ -1,9 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <Import Project="$(MSBuildProjectDirectory)\..\common\CommonProperties.props" />
+  <Import Project="$(MSBuildProjectDirectory)\..\common\PackageProperties.props" />
+  <Import Project="Properties\Version.props" />
+
   <PropertyGroup>
+    <AssemblyTitle>RestApiClient</AssemblyTitle>
+    <AssemblyName>RestApiClient</AssemblyName>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildProjectDirectory)\..\common\CommonProperties.props" Link="Properties\CommonProperties.props" />
+    <None Include="$(MSBuildProjectDirectory)\..\common\PackageProperties.props" Link="Properties\PackageProperties.props" />
+  </ItemGroup>
 
 </Project>
