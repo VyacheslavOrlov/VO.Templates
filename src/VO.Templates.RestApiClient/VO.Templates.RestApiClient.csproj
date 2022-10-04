@@ -5,8 +5,8 @@
   <Import Project="Properties\Version.props" />
 
   <PropertyGroup>
-    <AssemblyTitle>RestApiClient</AssemblyTitle>
-    <AssemblyName>RestApiClient</AssemblyName>
+    <AssemblyTitle>VO.Templates.RestApiClient</AssemblyTitle>
+    <AssemblyName>VO.Templates.RestApiClient</AssemblyName>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
