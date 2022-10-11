@@ -8,11 +8,15 @@
     <AssemblyTitle>VO.Templates</AssemblyTitle>
     <AssemblyName>VO.Templates</AssemblyName>
     <TargetFramework>net6.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="$(MSBuildProjectDirectory)\common\CommonProperties.props" Link="Properties\CommonProperties.props" />
     <None Include="$(MSBuildProjectDirectory)\common\PackageProperties.props" Link="Properties\PackageProperties.props" />
   </ItemGroup>
-
+  <ItemGroup Label="Files">
+    <Content Include="**\*" Exclude="**\bin\**\*;**\obj\**\*;**\.vs\**\*" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
 </Project>
