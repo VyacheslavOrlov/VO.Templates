@@ -1,6 +1,6 @@
-﻿using VO.Templates.RestApiClient.Structures;
+﻿using RestApiClient.Structures;
 
-namespace VO.Templates.RestApiClient;
+namespace RestApiClient;
 
 public interface IRestApiClient
 {

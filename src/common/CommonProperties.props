@@ -4,7 +4,7 @@
 				<Nullable>enable</Nullable>
 				
 				<Product>VO.Templates</Product>
-				<Description>This package contains common concerns functionality.</Description>
+				<Description>This package contains templates.</Description>
 				<Copyright>Copyright © 2022, Vyacheslav Orlov</Copyright>
 				<Authors>Vyacheslav Orlov</Authors>
 				<RepositoryType>git</RepositoryType>
