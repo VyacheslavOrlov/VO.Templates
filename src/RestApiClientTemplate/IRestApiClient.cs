@@ -1,6 +1,6 @@
-﻿using RestApiClient.Structures;
+﻿using RestApiClientTemplate.Structures;
 
-namespace RestApiClient;
+namespace RestApiClientTemplate;
 
 public interface IRestApiClient
 {

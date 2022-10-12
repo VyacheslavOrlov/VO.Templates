@@ -11,7 +11,7 @@
 		"language": "C#",
 		"type": "project"
 	},
-	"sourceName": "RestApiClient",
+	"sourceName": "RestApiClientTemplate",
 	"preferNameDirectory": true,
 	"symbols": {
 		"AuthorName": {
