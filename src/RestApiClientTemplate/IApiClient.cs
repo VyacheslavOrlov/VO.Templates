@@ -2,12 +2,12 @@
 
 namespace RestApiClientTemplate;
 
-public interface IRestApiClient
+public interface IApiClient
 {
     Task<ExampletResult> MethodExampleAsync(string name, CancellationToken cancellationToken = default);
 }
 
-public interface IRestApiClient<T> : IRestApiClient 
+public interface IApiClient<T> : IApiClient 
 {
 }
 
