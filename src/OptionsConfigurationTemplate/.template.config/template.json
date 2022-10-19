@@ -6,7 +6,7 @@
 	],
 	"identity": "Options.ItemsTemplate",
 	"name": "Options Items Template",
-	"shortName": "OptionsConfiguration",
+	"shortName": "optConfig",
 	"tags": {
 		"language": "C#",
 		"type": "item"
