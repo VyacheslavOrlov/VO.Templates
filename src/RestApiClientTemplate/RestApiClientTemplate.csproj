@@ -12,7 +12,7 @@
     <Folder Include="DependencyInjection\HealthCheck\" />
     <Folder Include="DependencyInjection\ErrorPolicy\" />
     <Folder Include="DependencyInjection\HeaderPropagation\" />
-    <Folder Include="Exceptions\" />
+    <Folder Include="Exceptions\Codes\" />
   </ItemGroup>
 
   <ItemGroup>

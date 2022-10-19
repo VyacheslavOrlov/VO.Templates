@@ -1,0 +1,28 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Vyacheslav Orlov",
+	"classifications": [
+		"Options"
+	],
+	"identity": "Options.ItemsTemplate",
+	"name": "Options Items Template",
+	"shortName": "OptionsConfiguration",
+	"tags": {
+		"language": "C#",
+		"type": "item"
+	},
+	"sourceName": "OptionsConfiguration",
+	"preferNameDirectory": true,
+	"sources": [
+		{
+			"modifiers": [
+				{
+					"exclude": [
+						"OptionsConfigurationTemplate.csproj",
+						"IBuilder.cs"
+					]
+				}
+			]
+		}
+	]
+}
