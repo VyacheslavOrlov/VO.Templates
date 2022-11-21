@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RestApiClientTemplate.Api.Structures
 {
-    internal record GetResponse
+    internal sealed record GetResponse
     {
     }
 }

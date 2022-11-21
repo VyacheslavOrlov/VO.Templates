@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 
 namespace Microsoft.Extensions.DependencyInjection;
 
-public static class CoreBuilderExtensions
+public static class ConfigurationBuilderExtensions
 {
     public static IBuilder<T> AddApiClientOptions<T>(this IBuilder<T> builder, Action<IServiceProvider, ApiClientOptions<T>> options)
     {

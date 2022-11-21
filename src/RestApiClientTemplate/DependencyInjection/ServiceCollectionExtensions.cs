@@ -21,6 +21,11 @@ public static class ServiceCollectionExtensions
         services.AddSingleton<IApiClient<T>, DefaultApiClient<T>>();
         var builder = new DefaultBuilder<T>(services, httpClientBuilder)
             .AddApiClientOptions(configure);
+
+        builder.AddErrorHandling(o => 
+        {
+            
+        });
         return builder;
     }
 }

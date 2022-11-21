@@ -28,7 +28,7 @@ internal static class ExceptionsExtensions
     /// <returns>Exception</returns>
     public static Exception HandleInnerExceptions(this Exception exception)
     {
-        if (exception is InternalException || exception is ValidationException)
+        if (exception is InternalException || exception is BadRequestException)
         {
             throw exception;
         }
@@ -47,7 +47,7 @@ internal static class ExceptionsExtensions
         if (exception is FluentValidation.ValidationException validationException)
         {
             logger.LogError(validationException, validationException.Message);
-            throw new ValidationException(validationException.Message, validationException);
+            throw new BadRequestException(validationException.Message, validationException);
         }
         return exception;
     }
@@ -64,7 +64,7 @@ internal static class ExceptionsExtensions
         if (exception is ApiException badrequestApiException && badrequestApiException.StatusCode == System.Net.HttpStatusCode.BadRequest)
         {
             logger.LogError(badrequestApiException, badrequestApiException.Message);
-            throw new ValidationException(badrequestApiException.Message);
+            throw new BadRequestException(badrequestApiException.Message);
         }
         return exception;
     }
